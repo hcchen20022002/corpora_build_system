@@ -1,0 +1,29 @@
+<!DOCTYPE>
+
+<!-- To do : lock screen function -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<head>
+	<title>NTNU Corpora Build System</title>
+	<link rel="stylesheet" type="text/css" href="resources/css/mask.css" />
+	<link rel="stylesheet" type="text/css" href="resources/css/styles.css" />
+	<body>
+		<div id="mainstyle">
+		<div id="loading-overlay"></div>
+		<div id="loading-message">Loading Information...</div>
+		<h2>Corpora Build System</h2>
+		<script src="resources/js/xhr.js" type="text/javascript"></script>
+		<script src="resources/js/submit.js" type="text/javascript"></script>
+		Keyword : <input id="inputkey" type="text" name="string" size="60" style="color:#a9a9a9" value ="Please use a comma or space to separate your multiple string key"  onclick="this.select();" /><br>
+		<br>Example : gen,biology<br><br>
+        <!-- <div id="category"></div><br> -->
+        Please upload the text you want to create corpora: <br>
+        <input type="file" name="filename" id="originaltext">
+        </div><br><br>
+		<input type="button" id="submitbutton" value="Start build" onclick="getinput();" />
+		<input id="inputreset" type="reset" value="Clear"/><br><br>
+		<script type="text/javascript" src="resources/js/init.js"></script>
+		<script type="text/javascript" src="resources/js/prompt.js"></script>
+		</div>
+		<div id="show"></div><br>
+	</body>
+</head>

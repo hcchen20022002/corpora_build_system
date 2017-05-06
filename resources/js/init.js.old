@@ -1,0 +1,78 @@
+function loadingLinkData() {
+	createDBRequest = makeXMLRequest();
+
+	createDBRequest.onreadystatechange = function() {
+		if (createDBRequest.readyState == 4  && createDBRequest.status == 200) {
+			unlockscreen();
+			createOption = makeXMLRequest();
+			createOption.onreadystatechange = function() { genoption(createOption); };
+			createOption.open("GET", "/cgi-bin/pkglistdb.cgi?method=list", false);
+			createOption.send(null);
+		}
+
+	};
+	createDBRequest.open("GET", "/cgi-bin/pkglistdb.cgi?method=create", true);
+	createDBRequest.send(null);
+}
+
+function unlockscreen() {
+		var loading_overlay_div = document.getElementById("loading-overlay");
+		loading_overlay_div.parentNode.removeChild(loading_overlay_div);
+		var loading_message_div = document.getElementById("loading-message");
+		loading_message_div.parentNode.removeChild(loading_message_div);
+}
+
+function genoption(httpRequest) {
+	if (httpRequest.readyState == 4  && httpRequest.status == 200) {
+
+		var option_obj=document.getElementById("category")
+
+		pkglist=JSON.parse(httpRequest.responseText);
+
+		OptionStatus = makeXMLRequest();
+		OptionStatus.open("GET", "/cgi-bin/pkglistdb.cgi?method=status", false);
+		OptionStatus.send(null);
+        
+		pkgstatus=JSON.parse(OptionStatus.responseText);
+
+		var t  = document.createElement("table");
+
+		for (var index=1; index<=pkglist.length; index++) {
+
+			var pkg = pkglist[index - 1];
+
+			if(index % 5 == 1) {
+				var tr = document.createElement("tr");
+			}
+
+			var td = document.createElement("td");
+
+			var checkbox = document.createElement("input");
+			checkbox.type = "checkbox";
+			checkbox.id = pkg;
+			checkbox.name = "package";
+			checkbox.value = pkg;
+			td.appendChild(checkbox);
+
+			var label = document.createElement('label');
+			if(pkgstatus[pkg] == "True") {
+				label.className = "blue";
+			} else if (pkgstatus[pkg] == "False") {
+				label.className = "red";
+			}
+			label.htmlFor = pkg ;
+			label.appendChild(document.createTextNode(pkg));
+			td.appendChild(label);
+
+			tr.appendChild(td);
+
+			if((index % 5 == 0) || (index == pkglist.length)) {
+				t.appendChild(tr);
+			}
+		}
+		option_obj.appendChild(t);
+	}
+}
+
+
+loadingLinkData();

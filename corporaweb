@@ -1,0 +1,38 @@
+#!/usr/bin/env python
+ 
+import BaseHTTPServer
+import CGIHTTPServer
+import cgitb; cgitb.enable()  
+from daemon import Daemon
+
+DAEMON_LOG = 'log/{}.log'.format(__file__)
+DAEMON_ERR = 'log/{}.err'.format(__file__)
+
+class AutotestWeb(Daemon):
+	def run(self):
+		server = BaseHTTPServer.HTTPServer
+		handler = CGIHTTPServer.CGIHTTPRequestHandler
+		server_address = ("", 2222)
+		handler.cgi_directories = ['/cgi-bin']
+
+		httpd = server(server_address, handler)
+		httpd.serve_forever()
+
+if '__main__' == __name__:
+	import sys
+	webserver = AutotestWeb(pid_file='/var/run/corpora_web.pid', stdout=DAEMON_LOG, stderr = DAEMON_ERR)
+
+	for arg in sys.argv:
+		if 'start' == arg:
+			webserver.start()
+			sys.exit(0)
+		elif 'stop' == arg:
+			webserver.stop()
+			sys.exit(0)
+		elif 'restart' == arg:
+			webserver.stop()
+			webserver.start()
+			sys.exit(0)
+
+	sys.stderr.write('not a valid argument : {start|stop|restart}\n')
+	sys.exit(1)

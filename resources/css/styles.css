@@ -1,0 +1,64 @@
+#mainstyle {
+	background: #F2F8F5;
+}
+
+#submitbutton, #inputreset, #selectall, #uninstallbutton {
+	background-color: #CAE4D7;
+	color: #424242;
+}
+
+.blue {
+	color: blue;
+}
+
+.red {
+	color: red;
+}
+
+a {
+	text-decoration:none;
+	color: #2f4f4f;
+}
+
+a.string_link:hover {
+	color: #cd853f;
+}
+
+a.string_link:visited {
+	color: #778899;
+}
+
+table.border {
+	padding: 4px;
+}
+
+caption.key_title {
+	font-size: 25;
+}
+
+thead {
+	background-color: #A2D0BA;
+}
+th.table_thead_language, th.table_thead_check {
+	text-align: center;
+}
+
+th.table_thead_value {
+	text-align: left;
+}
+
+td.language, td.check {
+	text-align: center;
+}
+
+td.language {
+	font-weight: bold;
+}
+
+tr.string_row {
+	background: #F2F8F5; 
+}
+
+tr.top_link {
+	text-align: center;
+}

@@ -1,0 +1,438 @@
+191.189.93.96 - - [04/May/2017 02:11:21] code 404, message File not found
+191.189.93.96 - - [04/May/2017 02:11:21] "GET /cgi/common.cgi HTTP/1.0" 404 -
+191.189.93.96 - - [04/May/2017 02:11:21] code 404, message File not found
+191.189.93.96 - - [04/May/2017 02:11:21] "GET /stssys.htm HTTP/1.0" 404 -
+191.189.93.96 - - [04/May/2017 02:11:22] "GET / HTTP/1.0" 200 -
+191.189.93.96 - - [04/May/2017 02:11:23] code 501, message Can only POST to CGI scripts
+191.189.93.96 - - [04/May/2017 02:11:23] "POST /command.php HTTP/1.0" 501 -
+223.105.4.250 - - [04/May/2017 03:00:59] code 404, message File not found
+223.105.4.250 - - [04/May/2017 03:00:59] "GET http://112.124.127.162:83/index.php HTTP/1.1" 404 -
+47.52.32.223 - - [04/May/2017 04:11:15] "GET / HTTP/1.1" 200 -
+96.88.123.101 - - [04/May/2017 07:46:33] "GET / HTTP/1.0" 200 -
+196.52.43.55 - - [04/May/2017 09:04:34] "GET / HTTP/1.0" 200 -
+223.140.158.187 - - [04/May/2017 09:28:12] "GET / HTTP/1.1" 200 -
+223.140.158.187 - - [04/May/2017 09:28:13] "GET /resources/css/mask.css HTTP/1.1" 200 -
+223.140.158.187 - - [04/May/2017 09:28:13] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+223.140.158.187 - - [04/May/2017 09:28:13] "GET /resources/css/styles.css HTTP/1.1" 200 -
+223.140.158.187 - - [04/May/2017 09:28:13] "GET /resources/js/submit.js HTTP/1.1" 200 -
+223.140.158.187 - - [04/May/2017 09:28:13] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+223.140.158.187 - - [04/May/2017 09:28:13] "GET /resources/js/init.js HTTP/1.1" 200 -
+223.140.158.187 - - [04/May/2017 09:28:13] code 404, message File not found
+223.140.158.187 - - [04/May/2017 09:28:13] "GET /favicon.ico HTTP/1.1" 404 -
+223.140.158.187 - - [04/May/2017 09:28:13] "GET / HTTP/1.1" 200 -
+223.140.158.187 - - [04/May/2017 09:28:14] "GET /resources/css/mask.css HTTP/1.1" 200 -
+223.140.158.187 - - [04/May/2017 09:28:14] "GET /resources/css/styles.css HTTP/1.1" 200 -
+223.140.158.187 - - [04/May/2017 09:28:14] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+223.140.158.187 - - [04/May/2017 09:28:14] "GET /resources/js/submit.js HTTP/1.1" 200 -
+223.140.158.187 - - [04/May/2017 09:28:14] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+223.140.158.187 - - [04/May/2017 09:28:14] "GET /resources/js/init.js HTTP/1.1" 200 -
+223.140.158.187 - - [04/May/2017 09:28:15] "GET / HTTP/1.1" 200 -
+223.140.158.187 - - [04/May/2017 09:28:15] "GET /resources/css/mask.css HTTP/1.1" 200 -
+223.140.158.187 - - [04/May/2017 09:28:15] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+223.140.158.187 - - [04/May/2017 09:28:15] "GET /resources/css/styles.css HTTP/1.1" 200 -
+223.140.158.187 - - [04/May/2017 09:28:15] "GET /resources/js/submit.js HTTP/1.1" 200 -
+223.140.158.187 - - [04/May/2017 09:28:15] "GET /resources/js/init.js HTTP/1.1" 200 -
+223.140.158.187 - - [04/May/2017 09:28:15] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+140.122.136.22 - - [04/May/2017 09:52:17] code 404, message File not found
+140.122.136.22 - - [04/May/2017 09:52:17] "GET /favicon.ico HTTP/1.1" 404 -
+140.122.136.22 - - [04/May/2017 10:12:45] "GET /cgi-bin/getstringvalue.cgi?key=start&category=ncbi HTTP/1.1" 200 -
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 42: [: start: unexpected operator
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 19: [: <br>: unexpected operator
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 19: [: <br>: unexpected operator
+140.122.136.22 - - [04/May/2017 10:12:45] "GET /resources/js/table.js HTTP/1.1" 200 -
+140.122.136.22 - - [04/May/2017 10:13:54] "GET / HTTP/1.1" 200 -
+140.122.136.22 - - [04/May/2017 10:13:54] "GET /resources/css/mask.css HTTP/1.1" 200 -
+140.122.136.22 - - [04/May/2017 10:13:54] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+140.122.136.22 - - [04/May/2017 10:13:54] "GET /resources/css/styles.css HTTP/1.1" 200 -
+140.122.136.22 - - [04/May/2017 10:13:54] "GET /resources/js/submit.js HTTP/1.1" 200 -
+140.122.136.22 - - [04/May/2017 10:13:54] "GET /resources/js/init.js HTTP/1.1" 200 -
+140.122.136.22 - - [04/May/2017 10:13:54] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+140.122.136.22 - - [04/May/2017 10:14:10] "GET /cgi-bin/getstringvalue.cgi?key=start&category=ncbi HTTP/1.1" 200 -
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 42: [: start: unexpected operator
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 19: [: <br>: unexpected operator
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 19: [: <br>: unexpected operator
+123.57.82.79 - - [04/May/2017 10:30:25] code 404, message File not found
+123.57.82.79 - - [04/May/2017 10:30:25] "GET /w00tw00t.at.blackhats.romanian.anti-sec:) HTTP/1.1" 404 -
+123.57.82.79 - - [04/May/2017 10:30:26] code 404, message File not found
+123.57.82.79 - - [04/May/2017 10:30:26] "GET /phpMyAdmin/scripts/setup.php HTTP/1.1" 404 -
+123.57.82.79 - - [04/May/2017 10:30:26] code 404, message File not found
+123.57.82.79 - - [04/May/2017 10:30:26] "GET /phpmyadmin/scripts/setup.php HTTP/1.1" 404 -
+123.57.82.79 - - [04/May/2017 10:30:27] code 404, message File not found
+123.57.82.79 - - [04/May/2017 10:30:27] "GET /pma/scripts/setup.php HTTP/1.1" 404 -
+123.57.82.79 - - [04/May/2017 10:30:27] code 404, message File not found
+123.57.82.79 - - [04/May/2017 10:30:27] "GET /myadmin/scripts/setup.php HTTP/1.1" 404 -
+123.57.82.79 - - [04/May/2017 10:30:28] code 404, message File not found
+123.57.82.79 - - [04/May/2017 10:30:28] "GET /MyAdmin/scripts/setup.php HTTP/1.1" 404 -
+123.57.82.79 - - [04/May/2017 10:30:29] code 404, message File not found
+123.57.82.79 - - [04/May/2017 10:30:29] "GET /PHPMYADMIN/scripts/setup.php HTTP/1.1" 404 -
+123.57.82.79 - - [04/May/2017 10:30:29] code 404, message File not found
+123.57.82.79 - - [04/May/2017 10:30:29] "GET /mysqladmin/scripts/setup.php HTTP/1.1" 404 -
+123.57.82.79 - - [04/May/2017 10:30:30] code 404, message File not found
+123.57.82.79 - - [04/May/2017 10:30:30] "GET /SQL/scripts/setup.php HTTP/1.1" 404 -
+78.97.171.67 - - [04/May/2017 11:24:38] code 400, message Bad HTTP/0.9 request type ('X\xf53\\\xfa&\xb8\xeb\xd49c\x94\xaa5\xaaj\xed\xd4\xe7\xf2\xa3\x14\xf5\xfe\x9e\xd2r\x93\x92\xa7^\x91')
+78.97.171.67 - - [04/May/2017 11:24:38] "Xı3\˙&∏Î‘9cî™5™jÌ‘ÁÚ£ı˛û“rìíß^ë}&úm·rVÚ‡˚Z6Q∆ù$≤‡«/Á" 400 -
+159.0.252.71 - - [04/May/2017 11:25:56] code 400, message Bad request syntax ('\x01iF\x94\xe9\xcf\xf6\xaa\xd0\xd2\xb9\xcc\xfa\x9c\x7fb\xcb\xb6\xdboi\x05k\xef')
+159.0.252.71 - - [04/May/2017 11:25:56] "iFîÈœˆ™–“πÃ˙úbÀ∂€oikÔ" 400 -
+127.0.0.1 - - [04/May/2017 12:19:01] code 404, message File not found
+127.0.0.1 - - [04/May/2017 12:19:01] "GET /favicon.ico HTTP/1.1" 404 -
+140.122.184.148 - - [04/May/2017 12:41:50] "GET / HTTP/1.1" 200 -
+140.122.184.148 - - [04/May/2017 12:41:50] "GET /resources/css/styles.css HTTP/1.1" 200 -
+140.122.184.148 - - [04/May/2017 12:41:50] "GET /resources/css/mask.css HTTP/1.1" 200 -
+140.122.184.148 - - [04/May/2017 12:41:50] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+140.122.184.148 - - [04/May/2017 12:41:50] "GET /resources/js/init.js HTTP/1.1" 200 -
+140.122.184.148 - - [04/May/2017 12:41:50] "GET /resources/js/submit.js HTTP/1.1" 200 -
+140.122.184.148 - - [04/May/2017 12:41:50] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+140.122.184.148 - - [04/May/2017 12:41:52] code 404, message File not found
+140.122.184.148 - - [04/May/2017 12:41:52] "GET /favicon.ico HTTP/1.1" 404 -
+140.122.184.88 - - [04/May/2017 12:42:13] "GET / HTTP/1.1" 200 -
+140.122.184.88 - - [04/May/2017 12:42:13] "GET /resources/css/styles.css HTTP/1.1" 200 -
+140.122.184.88 - - [04/May/2017 12:42:13] "GET /resources/css/mask.css HTTP/1.1" 200 -
+140.122.184.88 - - [04/May/2017 12:42:13] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+140.122.184.88 - - [04/May/2017 12:42:13] "GET /resources/js/init.js HTTP/1.1" 200 -
+140.122.184.88 - - [04/May/2017 12:42:13] "GET /resources/js/submit.js HTTP/1.1" 200 -
+140.122.184.88 - - [04/May/2017 12:42:13] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+140.122.184.88 - - [04/May/2017 12:42:13] code 404, message File not found
+140.122.184.88 - - [04/May/2017 12:42:13] "GET /favicon.ico HTTP/1.1" 404 -
+71.80.139.48 - - [04/May/2017 12:50:57] code 400, message Bad request syntax ('\xcdi8l\x18\xe7\x87\x04%\xa8\xd1\xd2r\xe3\xb6\\\xae\xdd8`\x84\xac\x14\xfaP\xe8\xb7F\xee\xf5\x18,<M\xdd\xee')
+71.80.139.48 - - [04/May/2017 12:50:57] "Õi8lÁá%®—“r„∂\Æ›8`Ñ¨˙PË∑FÓı,<M›Ó" 400 -
+80.216.9.108 - - [04/May/2017 12:52:09] code 400, message Bad HTTP/0.9 request type ('\xf3\xf7\xbdcH\xa8D\x9c\xc3m\x88\xba\xc5<&\x1b\xf7f\xe7i.\x07\x1c')
+80.216.9.108 - - [04/May/2017 12:52:09] "Û˜ΩcH®Dú√mà∫≈<&˜fÁi.	‡=˛+4TP(á7‰7W3¥´∞Ó#Á"1! ¶±≤Cñ⁄KüM8øïE" 400 -
+24.237.76.2 - - [04/May/2017 12:54:37] code 400, message Bad request syntax ("'\x90\xd2\xbd\xf8\xa9\xae\x04\x15\xde\xe4\x9bsO\x9b\x94\xc1oxAp\x1d%\xbb\x82]\xbc\xf3\xa8\x9d\xd3<\x81(bj\x94`\xef~\xef+\xe6\xd3\xe0\x05\x85B\xdd-!\xc7j\xdd\x9f\x87\x11\xb6\xd7S6=\x19\x13\xf0\xff")
+24.237.76.2 - - [04/May/2017 12:54:37] "'ê“Ω¯©Æﬁ‰õsOõî¡oxAp%ªÇ]ºÛ®ù”<Å(bjî`Ô~Ô+Ê”‡ÖB›-!«j›üá∂◊S6=ˇ" 400 -
+165.246.31.181 - - [04/May/2017 12:55:40] code 400, message Bad request syntax ('\x18')
+165.246.31.181 - - [04/May/2017 12:55:40] "" 400 -
+148.204.64.31 - - [04/May/2017 12:59:30] code 400, message Bad request syntax ('\xabu\x93s\x8a\xa7\xf2(\x1a?\xbch_\xa8$\x1dH\x8e\x86\x83\xa0g\\t\xe9\xbb\x02H#\x88\xaf\xbb\xc1\xa0\xa9\xf2')
+148.204.64.31 - - [04/May/2017 12:59:30] "´uìsäßÚ(?ºh_®$HéÜÉ†g\tÈªH#àØª¡†©Ú" 400 -
+121.137.86.130 - - [04/May/2017 12:59:55] code 400, message Bad request syntax ('\x8d\xe9')
+121.137.86.130 - - [04/May/2017 12:59:55] "çÈ" 400 -
+183.104.37.57 - - [04/May/2017 13:01:38] code 400, message Bad request syntax ('\xb4\x95\xaa\x9b$\x89\x9a\x1f\xbfnXgl\xa0\xc9\xec\xa7^n_\x83\xb8\xa8_"\x9b\x98\xb8S^\\\xbf\xc2\x96l"\xce\xdf]Yf\xaa\x1f@')
+183.104.37.57 - - [04/May/2017 13:01:38] "¥ï™õ$âöønXgl†…Ïß^n_É∏®_"õò∏S^\ø¬ñl"Œﬂ]Yf™@" 400 -
+68.3.61.254 - - [04/May/2017 13:04:31] code 400, message Bad HTTP/0.9 request type ('\x8f\xc39Ow')
+68.3.61.254 - - [04/May/2017 13:04:31] "è√9Owˇ\ngÜ! ˙.ûW„?4F!W ,QgõŒªXä’ur\R^>‹◊xa"î" 400 -
+190.161.246.164 - - [04/May/2017 13:10:45] code 400, message Bad HTTP/0.9 request type ('\xbd\x92K\xefJ4J\x9e\xc1\xd3/y\xb2\xd0"m\xb7\xfd\x92\x8aY\xc2s\xf9]\xa8+>\xfc\xa9\x80ZU\x9c\xa2"g\x96ar[pT\x00s\x99\xde\xc9k\xce\xbch\x01\x06S\x1e%[\x95\xbc\x17\xc9"\x7f\xb8\xd7')
+190.161.246.164 - - [04/May/2017 13:10:45] "ΩíKÔJ4Jû¡”/y≤–"m∑˝íäY¬s˘]®+>¸©ÄZUú¢"gñar[pT sôﬁ…kŒºhS%[ïº…"∏◊H'" 400 -
+119.242.35.122 - - [04/May/2017 13:11:58] code 400, message Bad HTTP/0.9 request type ('W\xcc\xa9\xab\xe7><\xcf\xa4\x14\xaaf\x10\xd8')
+119.242.35.122 - - [04/May/2017 13:11:58] "WÃ©´Á><œ§™fÿu‹^Æ|*‡…π#”AF˝n,˚ÌÕû™nº]ï«7≤q±˙ú¿;1‡kj¶.A¨sÁqµV<ÓE¬" 400 -
+109.92.64.122 - - [04/May/2017 13:13:58] code 400, message Bad request version ('\xf5^\xcd\x02i\xbe\xdd\xa4\x1d\x94\xc8\x1dD')
+109.92.64.122 - - [04/May/2017 13:13:58] "‰≤‘≠&ßl%í|ƒ˘–=ö9dí˛|vP{â ı^Õiæ›§î»D" 400 -
+140.122.184.88 - - [04/May/2017 13:27:25] "GET /cgi-bin/getstringvalue.cgi?key=start&category=ncbi HTTP/1.1" 200 -
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 42: [: start: unexpected operator
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 19: [: <br>: unexpected operator
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 19: [: <br>: unexpected operator
+140.122.184.88 - - [04/May/2017 13:27:26] "GET /resources/js/table.js HTTP/1.1" 200 -
+31.54.161.181 - - [04/May/2017 13:28:59] code 400, message Bad request syntax ('\xe3DB\xcft\xac@\xc1&a\xf5:\xcc\xee\xa4Q\xf3%\xc3\xba\xf7\x02\xf8\xb1\xbd\xc7`\xa7\xfd\xb6`\x94FWHg\x91\xb9\x9a\xdfT\xf1\xe2\xadw\xce\x83J\x12j\xaa\xf2\xc1\xb4\x04jr')
+31.54.161.181 - - [04/May/2017 13:28:59] "„DBœt¨@¡&aı:ÃÓ§QÛ%√∫˜¯±Ω«`ß˝∂`îFWHgëπöﬂTÒ‚≠wŒÉJj™Ú¡¥jr" 400 -
+140.122.184.148 - - [04/May/2017 13:34:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [04/May/2017 13:45:32] "GET /cgi-bin/getstringvalue.cgi?key=start&category=ncbi HTTP/1.1" 200 -
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 42: [: start: unexpected operator
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 19: [: <br>: unexpected operator
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 19: [: <br>: unexpected operator
+127.0.0.1 - - [04/May/2017 13:45:32] "GET /resources/js/table.js HTTP/1.1" 200 -
+36.3.86.134 - - [04/May/2017 15:28:59] code 400, message Bad request syntax ('\xdc\xb8\xfa\xa5\xa3s\xb1[&\x9a\xd9\x12\x8f\xf6\xb5@x;,LM\xb8\x07\xc6')
+36.3.86.134 - - [04/May/2017 15:28:59] "‹∏˙•£s±[&öŸèˆµ@x;,LM∏∆" 400 -
+1.34.111.176 - - [04/May/2017 17:08:11] "GET / HTTP/1.0" 200 -
+193.63.58.83 - - [04/May/2017 17:39:37] "GET / HTTP/1.1" 200 -
+139.162.88.63 - - [04/May/2017 18:25:42] code 404, message File not found
+139.162.88.63 - - [04/May/2017 18:25:42] "GET http://clientapi.ipip.net/echo.php?info=1234567890 HTTP/1.1" 404 -
+59.148.232.98 - - [04/May/2017 19:47:52] "GET / HTTP/1.0" 200 -
+54.67.127.247 - - [05/May/2017 04:06:42] code 505, message Invalid HTTP Version (2.0)
+54.67.127.247 - - [05/May/2017 04:06:42] "PRI * HTTP/2.0" 505 -
+120.26.211.148 - - [05/May/2017 04:27:24] "GET / HTTP/1.1" 200 -
+166.48.140.154 - - [05/May/2017 09:51:58] code 400, message Bad request syntax ('3\x1b\x99n*\xebZ\x14\xc7<%s\xdf\xee\x97\xd1$&\xd5\xf8\xbft\xc6=\xb0\xfewq\x0e\xae\xac\x9f\x9e\xe7B\xfb\x0f\xab\xed7\xcf\xbb\xbb')
+166.48.140.154 - - [05/May/2017 09:51:58] "3ôn*ÎZ«<%sﬂÓó—$&’¯øt∆=∞˛wqÆ¨üûÁB˚´Ì7œªª" 400 -
+72.209.240.218 - - [05/May/2017 09:51:58] code 400, message Bad request syntax ("\xca\x84\xb33\x9f\x882M4#\x007+\xcd\xb1\xe4`p\x90\x9cx9_\x13@'\x17/\xe4RV\xc4\x81C\xc1\x1e")
+72.209.240.218 - - [05/May/2017 09:51:58] " Ñ≥3üà2M4# 7+Õ±‰`pêúx9_@'/‰RVƒÅC¡" 400 -
+68.224.248.116 - - [05/May/2017 10:07:10] code 400, message Bad HTTP/0.9 request type ('\x04\xe9\x9f|\xc6Y|\xc1b?\xbdn\x84<\xda\x06\xeb\xee\xf0\x80\xd2')
+68.224.248.116 - - [05/May/2017 10:07:10] "Èü|∆Y|¡b?ΩnÑ<⁄ÎÓÄ“Œò%i" 400 -
+127.0.0.1 - - [05/May/2017 10:45:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 10:45:12] "GET /resources/css/mask.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 10:45:12] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 10:45:12] "GET /resources/css/styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 10:45:12] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 10:45:12] "GET /resources/js/submit.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 10:45:12] "GET /resources/js/init.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:02:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:02:41] "GET /resources/js/init.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:03:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:03:09] "GET /resources/css/mask.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:03:10] "GET /resources/css/styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:03:10] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:03:10] "GET /resources/js/submit.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:03:10] "GET /resources/js/init.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:03:10] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:03:19] "GET /cgi-bin/getstringvalue.cgi?key=aaaa&text= HTTP/1.1" 200 -
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 42: [: aaaa: unexpected operator
+127.0.0.1 - - [05/May/2017 11:03:19] "GET /resources/js/table.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:09:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:09:51] "GET /resources/css/mask.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:09:51] "GET /resources/css/styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:09:51] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:09:51] "GET /resources/js/submit.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:09:51] "GET /resources/js/init.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:09:51] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:10:02] code 501, message Can only POST to CGI scripts
+127.0.0.1 - - [05/May/2017 11:10:02] "POST /orig_text/ HTTP/1.1" 501 -
+191.255.207.250 - - [05/May/2017 11:17:06] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [05/May/2017 11:17:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:17:11] "GET /resources/css/mask.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:17:11] "GET /resources/css/styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:17:11] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:17:11] "GET /resources/js/submit.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:17:11] "GET /resources/js/init.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:17:11] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:17:20] "GET /cgi-bin/getstringvalue.cgi?key=aaaa&text=filename HTTP/1.1" 200 -
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 42: [: aaaa: unexpected operator
+127.0.0.1 - - [05/May/2017 11:18:14] "GET /cgi-bin/getstringvalue.cgi?key=aaaa&text=filename HTTP/1.1" 200 -
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 42: [: aaaa: unexpected operator
+127.0.0.1 - - [05/May/2017 11:18:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:18:17] "GET /resources/css/mask.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:18:17] "GET /resources/css/styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:18:17] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:18:17] "GET /resources/js/submit.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:18:17] "GET /resources/js/init.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:18:17] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:18:29] "GET /cgi-bin/getstringvalue.cgi?key=aaaa&text=filename HTTP/1.1" 200 -
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 42: [: aaaa: unexpected operator
+127.0.0.1 - - [05/May/2017 11:27:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:27:05] "GET /resources/css/mask.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:27:05] "GET /resources/css/styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:27:05] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:27:05] "GET /resources/js/submit.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:27:05] "GET /resources/js/init.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:27:05] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:27:17] "GET /cgi-bin/getstringvalue.cgi?key=aaaa&text=filename HTTP/1.1" 200 -
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 42: [: aaaa: unexpected operator
+127.0.0.1 - - [05/May/2017 11:32:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:32:17] "GET /resources/css/mask.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:32:17] "GET /resources/css/styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:32:17] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:32:17] "GET /resources/js/submit.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:32:17] "GET /resources/js/init.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 11:32:17] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 12:05:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 12:05:48] "GET /resources/css/styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 12:05:48] "GET /resources/css/mask.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 12:05:48] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 12:05:48] "GET /resources/js/submit.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 12:05:49] "GET /resources/js/init.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 12:05:49] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+76.126.99.50 - - [05/May/2017 12:06:57] code 400, message Bad HTTP/0.9 request type ('\xc2\x88\xd1')
+76.126.99.50 - - [05/May/2017 12:06:57] "¬à—®«`rå≈(ıq[ô>v}Åõu´vÖ˛múô€ ÀL," 400 -
+127.0.0.1 - - [05/May/2017 12:07:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 12:07:08] "GET /resources/css/mask.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 12:07:08] "GET /resources/css/styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 12:07:08] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 12:07:08] "GET /resources/js/submit.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 12:07:08] "GET /resources/js/init.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 12:07:08] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 12:07:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 12:07:45] "GET /resources/css/styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 12:07:45] "GET /resources/css/mask.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 12:07:45] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 12:07:45] "GET /resources/js/submit.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 12:07:45] "GET /resources/js/init.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 12:07:45] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 12:07:51] "GET /cgi-bin/getstringvalue.cgi?key=aaaaa&text=undefined HTTP/1.1" 200 -
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 42: [: aaaaa: unexpected operator
+127.0.0.1 - - [05/May/2017 12:14:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 12:14:34] "GET /resources/css/mask.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 12:14:34] "GET /resources/css/styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 12:14:34] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 12:14:34] "GET /resources/js/submit.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 12:14:34] "GET /resources/js/init.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2017 12:14:34] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+142.252.252.191 - - [05/May/2017 12:14:42] code 404, message File not found
+142.252.252.191 - - [05/May/2017 12:14:42] "GET http://dx.doi.org/ HTTP/1.1" 404 -
+127.0.0.1 - - [05/May/2017 12:14:51] "GET /cgi-bin/getstringvalue.cgi?key=aaa&text=undefined HTTP/1.1" 200 -
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 42: [: aaa: unexpected operator
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 19: [: <br>: unexpected operator
+118.169.112.194 - - [06/May/2017 12:06:05] "GET / HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:06:06] "GET /resources/css/mask.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:06:06] "GET /resources/css/styles.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:06:06] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:06:06] "GET /resources/js/submit.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:06:06] "GET /resources/js/init.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:06:06] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:06:07] code 404, message File not found
+118.169.112.194 - - [06/May/2017 12:06:07] "GET /favicon.ico HTTP/1.1" 404 -
+118.169.112.194 - - [06/May/2017 12:18:56] "GET / HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:18:59] "GET / HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:18:59] "GET /resources/css/mask.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:18:59] "GET /resources/css/styles.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:18:59] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:19:00] "GET /resources/js/submit.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:19:00] "GET /resources/js/init.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:19:00] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:19:00] code 404, message File not found
+118.169.112.194 - - [06/May/2017 12:19:00] "GET /favicon.ico HTTP/1.1" 404 -
+118.169.112.194 - - [06/May/2017 12:19:09] "GET /cgi-bin/getstringvalue.cgi?key=aaaa&text=undefined HTTP/1.1" 200 -
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 42: [: aaaa: unexpected operator
+118.169.112.194 - - [06/May/2017 12:19:10] "GET /resources/js/table.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:23:01] "GET / HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:23:01] "GET /resources/css/mask.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:23:01] "GET /resources/css/styles.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:23:01] "GET /resources/js/init.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:23:01] "GET /resources/js/submit.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:23:01] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:23:01] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:23:01] code 404, message File not found
+118.169.112.194 - - [06/May/2017 12:23:01] "GET /favicon.ico HTTP/1.1" 404 -
+118.169.112.194 - - [06/May/2017 12:23:15] "GET / HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:23:15] "GET /resources/css/mask.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:23:15] "GET /resources/js/init.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:23:15] "GET /resources/js/submit.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:23:15] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:23:15] "GET /resources/css/styles.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:23:15] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:23:15] code 404, message File not found
+118.169.112.194 - - [06/May/2017 12:23:15] "GET /favicon.ico HTTP/1.1" 404 -
+118.169.112.194 - - [06/May/2017 12:24:27] "GET / HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:24:28] "GET /resources/js/submit.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:25:15] "GET / HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:25:15] "GET /resources/css/mask.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:25:15] "GET /resources/css/styles.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:25:15] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:25:15] "GET /resources/js/submit.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:25:15] "GET /resources/js/init.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:25:15] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:25:25] "GET /cgi-bin/getstringvalue.cgi?key=aaa&text=undefined HTTP/1.1" 200 -
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 42: [: aaa: unexpected operator
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 19: [: <br>: unexpected operator
+118.169.112.194 - - [06/May/2017 12:25:40] "GET / HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:25:40] "GET /resources/css/mask.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:25:40] "GET /resources/css/styles.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:25:40] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:25:40] "GET /resources/js/submit.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:25:40] "GET /resources/js/init.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:25:40] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:25:48] "GET /cgi-bin/getstringvalue.cgi?key=aaaa&text=undefined HTTP/1.1" 200 -
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 42: [: aaaa: unexpected operator
+118.169.112.194 - - [06/May/2017 12:28:13] "GET / HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:28:13] "GET /resources/css/mask.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:28:13] "GET /resources/css/styles.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:28:13] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:28:13] "GET /resources/js/init.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:28:13] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:28:13] "GET /resources/js/submit.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:28:24] "GET /cgi-bin/getstringvalue.cgi?key=aaaa&text=undefined HTTP/1.1" 200 -
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 42: [: aaaa: unexpected operator
+118.169.112.194 - - [06/May/2017 12:30:20] "GET / HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:30:20] "GET /resources/js/submit.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:30:21] "GET / HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:30:22] "GET /resources/js/submit.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:30:22] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:30:22] "GET /resources/css/mask.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:30:22] "GET /resources/css/styles.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:30:22] "GET /resources/js/init.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:30:22] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:30:23] "GET / HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:30:24] "GET /resources/css/mask.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:30:24] "GET /resources/css/styles.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:30:24] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:30:24] "GET /resources/js/submit.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:30:24] "GET /resources/js/init.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:30:24] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:30:32] "GET /cgi-bin/getstringvalue.cgi?key=aaaa&text=undefined HTTP/1.1" 200 -
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 42: [: aaaa: unexpected operator
+118.169.112.194 - - [06/May/2017 12:31:41] "GET / HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:31:41] "GET /resources/css/mask.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:31:41] "GET /resources/css/styles.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:31:41] "GET /resources/js/submit.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:31:41] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:31:41] "GET /resources/js/init.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:31:41] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 12:31:48] "GET /cgi-bin/getstringvalue.cgi?key=aaaa&text=undefined HTTP/1.1" 200 -
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 42: [: aaaa: unexpected operator
+139.162.83.83 - - [06/May/2017 12:33:38] "HEAD / HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:23:31] "GET / HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:23:31] "GET /resources/css/mask.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:23:31] "GET /resources/css/styles.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:23:31] "GET /resources/js/init.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:23:31] "GET /resources/js/submit.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:23:31] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:23:31] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:23:54] "GET / HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:23:54] "GET /resources/css/mask.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:23:54] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:23:54] "GET /resources/css/styles.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:23:54] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:23:54] "GET /resources/js/init.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:23:54] "GET /resources/js/submit.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:24:10] "GET / HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:24:10] "GET /resources/css/mask.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:24:10] "GET /resources/css/styles.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:24:10] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:24:10] "GET /resources/js/init.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:24:10] "GET /resources/js/submit.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:24:10] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:24:11] "GET / HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:24:11] "GET /resources/css/mask.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:24:11] "GET /resources/js/submit.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:24:11] "GET /resources/css/styles.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:24:11] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:24:11] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:24:11] "GET /resources/js/init.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:24:54] "GET / HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:24:54] "GET /resources/js/submit.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:25:00] "GET /cgi-bin/getstringvalue.cgi?key=aaa&text=undefined HTTP/1.1" 200 -
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 42: [: aaa: unexpected operator
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 19: [: <br>: unexpected operator
+118.169.112.194 - - [06/May/2017 13:39:07] "GET / HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:39:07] "GET /resources/css/mask.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:39:07] "GET /resources/css/styles.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:39:07] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:39:07] "GET /resources/js/submit.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:39:07] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:39:07] "GET /resources/js/init.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:39:13] "GET /cgi-bin/getstringvalue.cgi?key=aaa&text=undefined HTTP/1.1" 200 -
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 42: [: aaa: unexpected operator
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 19: [: <br>: unexpected operator
+118.169.112.194 - - [06/May/2017 13:39:25] "GET / HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:39:25] "GET /resources/css/mask.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:39:25] "GET /resources/css/styles.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:39:25] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:39:25] "GET /resources/js/init.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:39:25] "GET /resources/js/submit.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:39:25] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:39:32] "GET /cgi-bin/getstringvalue.cgi?key=aaaa&text=undefined HTTP/1.1" 200 -
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 42: [: aaaa: unexpected operator
+118.169.112.194 - - [06/May/2017 13:39:47] "GET /cgi-bin/getstringvalue.cgi?key=aaaa&text=undefined HTTP/1.1" 200 -
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 42: [: aaaa: unexpected operator
+118.169.112.194 - - [06/May/2017 13:40:03] "GET / HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:40:03] "GET /resources/css/mask.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:40:03] "GET /resources/js/submit.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:40:03] "GET /resources/js/init.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:40:03] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:40:03] "GET /resources/css/styles.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:40:03] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:40:08] "GET /cgi-bin/getstringvalue.cgi?key=aaa&text=undefined HTTP/1.1" 200 -
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 42: [: aaa: unexpected operator
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 19: [: <br>: unexpected operator
+118.169.112.194 - - [06/May/2017 13:40:34] "GET / HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:40:34] "GET /resources/css/mask.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:40:34] "GET /resources/css/styles.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:40:34] "GET /resources/js/submit.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:40:34] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:40:34] "GET /resources/js/init.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:40:34] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 13:40:43] "GET /cgi-bin/getstringvalue.cgi?key=aaaa&text=undefined HTTP/1.1" 200 -
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 42: [: aaaa: unexpected operator
+2.230.178.184 - - [06/May/2017 14:28:48] code 404, message File not found
+2.230.178.184 - - [06/May/2017 14:28:48] "GET /manager/html HTTP/1.1" 404 -
+114.215.89.174 - - [06/May/2017 14:30:56] code 404, message File not found
+114.215.89.174 - - [06/May/2017 14:30:56] "GET /phpMyAdmin/scripts/setup.php HTTP/1.1" 404 -
+114.215.89.174 - - [06/May/2017 14:32:14] code 404, message File not found
+114.215.89.174 - - [06/May/2017 14:32:14] "GET /pma/scripts/setup.php HTTP/1.1" 404 -
+114.215.89.174 - - [06/May/2017 14:33:33] code 404, message File not found
+114.215.89.174 - - [06/May/2017 14:33:33] "GET /myadmin/scripts/setup.php HTTP/1.1" 404 -
+79.7.107.9 - - [06/May/2017 14:36:22] code 404, message File not found
+79.7.107.9 - - [06/May/2017 14:36:22] "GET /manager/html HTTP/1.1" 404 -
+118.169.112.194 - - [06/May/2017 14:42:01] "GET / HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 14:42:01] "GET /resources/css/mask.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 14:42:01] "GET /resources/css/styles.css HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 14:42:01] "GET /resources/js/submit.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 14:42:01] "GET /resources/js/xhr.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 14:42:01] "GET /resources/js/init.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 14:42:01] "GET /resources/js/prompt.js HTTP/1.1" 200 -
+118.169.112.194 - - [06/May/2017 14:42:07] "GET /cgi-bin/getstringvalue.cgi?key=%E3%84%87&text_name=%E6%96%B0%E6%96%87%E5%AD%97%E6%96%87%E4%BB%B6.txt HTTP/1.1" 200 -
+/home/normanc/NTNU/OO/project/cgi-bin/getstringvalue.cgi: 42: [: „Ñá: unexpected operator
