@@ -14,13 +14,19 @@
 		<script src="resources/js/xhr.js" type="text/javascript"></script>
 		<script src="resources/js/submit.js" type="text/javascript"></script>
 		Keyword : <input id="inputkey" type="text" name="string" size="60" style="color:#a9a9a9" value ="Please use a comma or space to separate your multiple string key"  onclick="this.select();" /><br>
+        <br>
 		<br>Example : gen,biology<br><br>
-        <!-- <div id="category"></div><br> -->
+        <input type="checkbox" id="stopword">Remove stop words.<br>
+        <input type="checkbox" id="symbol">Remove symbols.<br>
+        <input type="checkbox" id="stemming">Stemming words. (WARNING: stemming words would also remove symbol!)<br>
+        <input type="checkbox" id="tagger">Tagger words.<br><br>
         Please upload the text you want to create corpora: <br>
-        <input type="file" name="filename" id="originaltext">
+        <input type="file" name="filename" id="originaltext" onchange="uploadFile();">
+        <b>
         </div><br><br>
 		<input type="button" id="submitbutton" value="Start build" onclick="getinput();" />
-		<input id="inputreset" type="reset" value="Clear"/><br><br>
+		<input id="inputreset" type="reset" value="Clear"/>
+        <a target='_blank' href="record.html">history</a><br><br>
 		<script type="text/javascript" src="resources/js/init.js"></script>
 		<script type="text/javascript" src="resources/js/prompt.js"></script>
 		</div>

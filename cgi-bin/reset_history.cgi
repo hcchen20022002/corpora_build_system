@@ -1,0 +1,1 @@
+history/reset_history.cgi
