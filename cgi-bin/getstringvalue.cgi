@@ -87,7 +87,7 @@ if [ ! -z ${file_name} ] ;then
 
     cat << EOF
 <h3>
-Download: <a href=${corpora_text_name}>Corpora File</a><br>
+Download: <a href=${corpora_text_name}>Corpus File</a><br>
 <br>
 <br>
 EOF
