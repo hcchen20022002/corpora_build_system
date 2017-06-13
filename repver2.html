@@ -1,0 +1,150 @@
+﻿<html>
+
+<head>
+<title>JavaScript Replace</title>
+
+</head>
+
+<body>
+<p id="showinf"></p>
+<p>快速取代功能</p>
+
+輸入取代參數並且請上傳文件。
+
+     <p> 參數: <input type="text" name="oldw"  id="OldWord" size="20">
+	 <input type="text" name="neww"  id="NewWord" size="20">
+	 <input type="button" name="addbutton" id="addReplaceButton" value="add" onclick="addshowItem()"></p>
+	 <textarea  id="replaceItem"   ></textarea>
+	 
+	 <input type="text" name="deli"  id="delnumber" >
+	 <input type="button" name="deleteButton" id="deleteButton" value="Delete Element" onclick="delitem()"></p>
+	 
+     <p>文件: <input id="MyFileTxt"  type="file"     /></p>
+	<p> <input type="button" name="generateRepPrew" id="generateRepPrew" value="Generate Preview" onclick="genPreview()">
+     <input type="button" name="generateDownload" id="downloadButton" value="Generate Download" onclick="genDownload()"></p>
+	<textarea  id="filePreview" cols="68" rows="10"  ></textarea>
+	<textarea  id="repPreview" cols="68" rows="10"  ></textarea>
+ <!--   <input type="button" name="testbtn" id="TESTBTN" value="TEST" onclick="TEST()">-->
+
+</body>
+
+
+ <script language="JavaScript">
+ var replaceItemArray=[];
+ var isReplacement=false;
+ 
+ var proptext;
+ 
+ var replaceText;
+ 
+    window.onload = function () {
+    document.getElementById('MyFileTxt').onchange = readFile;
+	
+};
+
+function readFile() {
+    
+    var fReader = new FileReader();           
+    fReader.onload = function (event) {
+        document.getElementById('filePreview').value = event.target.result;
+		
+			proptext=event.target.result;
+		
+		
+    };
+     fReader.readAsText(this.files[0]);
+    
+    }
+    function doreplace(oristr){
+	     for(var i=0;i<replaceItemArray.length;i+=2){
+		 var re = new RegExp(replaceItemArray[i], 'g');
+		  var  oristr =oristr.replace(re,replaceItemArray[i+1]);
+		 
+		 }
+	return oristr;
+	}
+	
+	
+	function addshowItem(){
+	
+	var repa="";
+	repa=document.getElementById('OldWord').value ;
+	var repb=document.getElementById('NewWord').value ;
+	document.getElementById('OldWord').value =null;
+	document.getElementById('NewWord').value =null;
+	if(repa==""&&repb=="") return;
+	replaceItemArray.push(repa);
+	replaceItemArray.push(repb);
+	 
+	 showItem();
+	}
+function showItem(){
+var showstr="";
+	 
+	   for(var i=0;i<replaceItemArray.length;i+=2){
+	     
+        if(i=="0")showstr+="1";
+		else showstr+=(i/2)+1;
+	   showstr+=" . ";
+	   showstr+=(replaceItemArray[i]);
+	   showstr+=(" => ");
+	   showstr+=(replaceItemArray[i+1]);
+	   showstr+=(" \n");
+	   }
+	 
+	 document.getElementById('replaceItem').value =showstr;
+}	
+function genPreview(){
+replaceText=doreplace(proptext);
+         isReplacement=true;
+		document.getElementById('repPreview').value = replaceText;
+}
+	
+function genDownload(){
+       if( isReplacement== false) 
+	   {
+	   genPreview();
+	   
+	   
+	   }
+	   
+var tmpstr=document.getElementById('MyFileTxt').value;
+	   var tfn=tmpstr.split("\\");
+	   
+	   //window.alert(tfn[tfn.length-1]);
+	   download("rep_"+tfn[tfn.length-1],replaceText);
+return;
+}
+function delitem(){
+
+var  delnum= document.getElementById('delnumber').value;
+document.getElementById('delnumber').value=null;
+delnum=(delnum-1)*2;
+if(delnum<replaceItemArray.length &&delnum>=0 ){
+replaceItemArray.splice(delnum,2);
+showItem();
+
+}
+
+}	
+function TEST(){
+ download("sam.txt",proptext);
+}
+
+function download(filename, text) {
+  var element = document.createElement('a');
+  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+  element.setAttribute('download', filename);
+
+  element.style.display = 'none';
+  document.body.appendChild(element);
+
+  element.click();
+
+  document.body.removeChild(element);
+}
+
+  </script> 
+
+
+</html>
