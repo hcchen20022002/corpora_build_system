@@ -1,32 +1,62 @@
 ﻿<html>
 
 <head>
-<title>JavaScript Replace</title>
-
-</head>
+<title>Replace words</title>
+<link rel="stylesheet" type="text/css" href="resources/css/mask.css" />
+<link rel="stylesheet" type="text/css" href="resources/css/styles.css" />
 
 <body>
 <p id="showinf"></p>
-<p>快速取代功能</p>
+<h2>Replace Words</h2>
+<br>
 
-輸入取代參數並且請上傳文件。
+    Input the rule of words pair you want to replace:<br>
 
-     <p> 參數: <input type="text" name="oldw"  id="OldWord" size="20">
+     <input type="text" name="oldw"  id="OldWord" size="20"> be replace by
 	 <input type="text" name="neww"  id="NewWord" size="20">
-	 <input type="button" name="addbutton" id="addReplaceButton" value="add" onclick="addshowItem()"></p>
-	 <textarea  id="replaceItem"   ></textarea>
-	 
-	 <input type="text" name="deli"  id="delnumber" >
+     <input type="button" name="addbutton" id="addReplaceButton" value="add" onclick="addshowItem()"><br>
+     <br>
+     <br>
+     Rule of words replacement:
+     <table id="replaceItem" class="tableborder">
+	 <thead>
+         <tr class="table border">
+             <th class="table_thead_id" width="50">ID</th>
+             <th class="table_thead_old_word" width="150">Old Word</th>
+             <th class="table_thead_new_word" width="150">New Word</th>
+         </tr>
+     </thead>
+     <tbody id='replaceItemBody'><tbody/>
+     </table>
+     <br>
+     <br>
+	 Delete the rule: <input type="text" name="deli"  id="delnumber" > 
 	 <input type="button" name="deleteButton" id="deleteButton" value="Delete Element" onclick="delitem()"></p>
-	 
-     <p>文件: <input id="MyFileTxt"  type="file"     /></p>
+     You may delete the rule by input rule's ID.
+     <br> 
+     <br> 
+     <br> 
+     <input id="MyFileTxt"  type="file"     />
 	<p> <input type="button" name="generateRepPrew" id="generateRepPrew" value="Generate Preview" onclick="genPreview()">
      <input type="button" name="generateDownload" id="downloadButton" value="Generate Download" onclick="genDownload()"></p>
-	<textarea  id="filePreview" cols="68" rows="10"  ></textarea>
-	<textarea  id="repPreview" cols="68" rows="10"  ></textarea>
- <!--   <input type="button" name="testbtn" id="TESTBTN" value="TEST" onclick="TEST()">-->
+
+     <table id="result" class="tableborder">
+	 <thead>
+         <tr class="table border">
+             <th class="table_thead_original_file" width="500">Original Text</th>
+             <th class="table_thead_new_file" width="500">New Text</th>
+         </tr>
+     </thead>
+     <tbody>
+	 <tr class="string_row">
+         <td id="filePreview" class="key"></td>
+         <td id="repPreview" class="key"></td>
+     </tr>
+     <tbody/>
+     </table>
 
 </body>
+</head>
 
 
  <script language="JavaScript">
@@ -46,7 +76,7 @@ function readFile() {
     
     var fReader = new FileReader();           
     fReader.onload = function (event) {
-        document.getElementById('filePreview').value = event.target.result;
+        document.getElementById('filePreview').textContent = event.target.result;
 		
 			proptext=event.target.result;
 		
@@ -55,17 +85,17 @@ function readFile() {
      fReader.readAsText(this.files[0]);
     
     }
-    function doreplace(oristr){
+function doreplace(oristr){
 	     for(var i=0;i<replaceItemArray.length;i+=2){
 		 var re = new RegExp(replaceItemArray[i], 'g');
 		  var  oristr =oristr.replace(re,replaceItemArray[i+1]);
 		 
 		 }
 	return oristr;
-	}
+}
 	
 	
-	function addshowItem(){
+function addshowItem(){
 	
 	var repa="";
 	repa=document.getElementById('OldWord').value ;
@@ -77,27 +107,33 @@ function readFile() {
 	replaceItemArray.push(repb);
 	 
 	 showItem();
-	}
+}
+
 function showItem(){
-var showstr="";
-	 
-	   for(var i=0;i<replaceItemArray.length;i+=2){
-	     
-        if(i=="0")showstr+="1";
-		else showstr+=(i/2)+1;
-	   showstr+=" . ";
-	   showstr+=(replaceItemArray[i]);
-	   showstr+=(" => ");
-	   showstr+=(replaceItemArray[i+1]);
-	   showstr+=(" \n");
-	   }
-	 
-	 document.getElementById('replaceItem').value =showstr;
-}	
+    var tbody = document.getElementById("replaceItemBody");
+    tbody.innerHTML = "";
+
+    for(var i=0;i<replaceItemArray.length;i+=2){
+        var row = document.createElement('tr');
+        var id = document.createElement('td');
+        var old_word = document.createElement('td');
+        var new_word = document.createElement('td');
+
+        id.textContent = (i/2)+1;
+        old_word.textContent = replaceItemArray[i];
+        new_word.textContent = replaceItemArray[i+1];
+
+        row.appendChild(id);
+        row.appendChild(old_word);
+        row.appendChild(new_word);
+        tbody.appendChild(row);    
+    }
+}
+
 function genPreview(){
 replaceText=doreplace(proptext);
          isReplacement=true;
-		document.getElementById('repPreview').value = replaceText;
+		document.getElementById('repPreview').textContent = replaceText;
 }
 	
 function genDownload(){
