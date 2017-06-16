@@ -9,6 +9,10 @@ function addListener(element,e,fn) {
 
 var stringinput = document.getElementById("inputkey");
 var resetbutton = document.getElementById("inputreset");
+var stop_word_checkbox = document.getElementById("stopword");
+var symbol_checkbox = document.getElementById("symbol");
+var stemming_checkbox = document.getElementById("stemming");
+var tagger_checkbox = document.getElementById("tagger");
 
 promptstring = "Please use a comma or space to separate your multiple string key"
 
@@ -40,7 +44,10 @@ addListener(stringinput,"blur",function() {
 addListener(resetbutton,"click",function() {
 	stringinput.style.color = "#a9a9a9";
 	stringinput.value = "";
-	sectioninput.value = "";
+    stop_word_checkbox.checked = false ;
+    symbol_checkbox.checked = false ;
+    stemming_checkbox.checked = false ;
+    tagger_checkbox.checked = false ;
 
 	document.getElementById("show").innerHTML = "";
 });
